@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct MenuSection: Codable{
+struct MenuSection: Codable,Identifiable{
     var id:UUID
     var name:String
     var items:[MenuItem]
 }
 
 
-struct MenuItem:Codable, Hashable{
+struct MenuItem:Codable, Equatable,Identifiable{
     var id:UUID
     var name:String
-    var photo:String
+    var photoCredit:String
     var price:Int
     var restrictions:[String]
     var description:String
