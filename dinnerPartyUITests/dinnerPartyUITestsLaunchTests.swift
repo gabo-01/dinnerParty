@@ -6,7 +6,7 @@
 //
 
 import XCTest
-
+/Users/fernando/Documents/practice1/practice1/SiTa/PlaybookSwiftUi/dinnerParty/dinnerParty/Menu.swift
 final class dinnerPartyUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
